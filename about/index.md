@@ -7,4 +7,4 @@ navtitle: About
 templateClass: tmpl-post
 ---
 
-I am a person that writes stuff.
+I am a web developer/designer/frontend in Japan. I direct web projects and design and code web sites.
