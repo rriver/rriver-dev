@@ -1,16 +1,16 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Rriver Dev",
+  "url": "https://rriver.dev/",
+  "description": "Dev related notes by Rriver in Japan.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Dev related notes by Rriver in Japan",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://myurl.com/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "url": "https://rriver.dev/feed/feed.xml",
+    "id": "https://rriver.dev/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Ryo Watanabe",
+    "email": "No email please"
   }
 }
