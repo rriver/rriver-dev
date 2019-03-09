@@ -47,7 +47,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  background: var(--rr-blue);
+  background: var(--darkgray);
 }
 header:after {
   content: "";
