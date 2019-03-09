@@ -1,7 +1,7 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
-date: 2018-05-01
+title: 11tyを使ってサイト構築を実験中
+description: 11tyがどんなものか知るためにとりあえず作ってみる
+date: 2019-03-08
 tags:
   - another-tag
 layout: layouts/post.njk
