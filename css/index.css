@@ -22,30 +22,24 @@ body {
   color: var(--lightgray);
   background-color: var(--rr-darkblue);
 }
-p:last-child {
+/* p:last-child {
   margin-bottom: 0;
 }
 p,
 .tmpl-post li,
 img {
-  max-width: 37.5em; /* 600px /16 */
+  max-width: 37.5em;
 }
 p,
 .tmpl-post li {
   line-height: 1.45;
-}
+} */
 a[href] {
   color: var(--white);
 }
 a[href]:visited {
   color: var(--gray);
   text-decoration: none;
-}
-main {
-  padding: 1rem;
-}
-main :first-child {
-  margin-top: 0;
 }
 header {
   background: var(--darkgray);
@@ -54,6 +48,11 @@ header:after {
   content: "";
   display: table;
   clear: both;
+}
+main {
+  max-width: 40em;
+  margin:  0 auto;
+  padding: 1em;
 }
 pre,
 code {
@@ -148,25 +147,39 @@ pre {
   text-decoration: underline;
 }
 
-/* main */
-main {
-  max-width: 40em;
-  margin: 0 auto;
-}
-
+/* Elements under main */
 h1 {
   text-align: center;
+  font-size: 3em;
+  line-height: 1;
 }
-
+h1 span {
+  font-size: 0.5em;
+}
 p + h2,
 ul + h2 {
   margin-top: 2em;
 }
-
 p.who-i-am {
   margin-top: -0.8em;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
   text-align: center;
+}
+p.copyright {
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  margin: 6em 0 1em;
+  text-align: center;
+}
+ul {
+  margin-bottom: 2em;
+}
+.logo-mark {
+  margin: 8em 0 9em;
+}
+.logo-mark img {
+  display: block;
+  width: 180px;
+  margin: 0 auto;
 }
 
 /* Posts list */
