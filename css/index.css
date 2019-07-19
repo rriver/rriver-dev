@@ -19,8 +19,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: var(--darkgray);
-  background-color: var(--yellow);
+  color: var(--lightgray);
+  background-color: var(--rr-darkblue);
 }
 p:last-child {
   margin-bottom: 0;
@@ -35,10 +35,11 @@ p,
   line-height: 1.45;
 }
 a[href] {
-  color: var(--blue);
+  color: var(--white);
 }
 a[href]:visited {
-  color: var(--navy);
+  color: var(--gray);
+  text-decoration: none;
 }
 main {
   padding: 1rem;
@@ -145,6 +146,27 @@ pre {
 .nav-item-active {
   font-weight: 700;
   text-decoration: underline;
+}
+
+/* main */
+main {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+p + h2,
+ul + h2 {
+  margin-top: 2em;
+}
+
+p.who-i-am {
+  margin-top: -0.8em;
+  margin-bottom: 2em;
+  text-align: center;
 }
 
 /* Posts list */
