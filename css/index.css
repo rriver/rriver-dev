@@ -160,6 +160,9 @@ p + h2,
 ul + h2 {
   margin-top: 2em;
 }
+p {
+  line-height: 2;
+}
 p.who-i-am {
   margin-top: -0.8em;
   margin-bottom: 4em;
